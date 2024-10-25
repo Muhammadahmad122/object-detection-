@@ -33,3 +33,28 @@ pip install -r requirements.txt
 -IoU: 0.85
 -Precision: 0.90
 -Recall: 0.88
+
+# License
+- This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
+###  `.gitignore`
+This file ensures that certain files and directories are ignored by Git and not uploaded to GitHub. Here's a clean, well-structured `.gitignore`:
+
+```gitignore
+# Ignore virtual environments and cache files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints
