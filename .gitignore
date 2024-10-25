@@ -1,0 +1,22 @@
+
+---
+
+### 3. `.gitignore`
+This file ensures that certain files and directories are ignored by Git and not uploaded to GitHub. Here's a clean, well-structured `.gitignore`:
+
+```gitignore
+# Ignore virtual environments and cache files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints
