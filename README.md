@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 - Input Video: The script processes the input video and counts objects in real-time. You can modify the source to handle other types of input, including live camera feeds or different video formats.
 ## Example Output
-Objects counted: 15
-IoU: 0.85
-Precision: 0.90
-Recall: 0.88
+-Objects counted: 15
+-IoU: 0.85
+-Precision: 0.90
+-Recall: 0.88
